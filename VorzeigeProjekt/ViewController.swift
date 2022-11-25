@@ -2,19 +2,30 @@
 //  ViewController.swift
 //  VorzeigeProjekt
 //
-//  Created by Jacqueline Schmitz on 24.11.22.
+//  Created by Jacqueline Schmitz on 25.11.22.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+    
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    
+    class ViewController: UIViewController {
         
-    }
-
+     
+        
+        
+            override func viewDidLoad() {
+            super.viewDidLoad()
+          
+        }
+        
+            
+            
+        }
+            
+        
+        
+        
     
-    
-}
 
