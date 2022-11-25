@@ -15,7 +15,7 @@ struct MakeUp {
     
 }
     
-class DetailTableViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class DetailTableViewController: UIViewController {
     
     @IBOutlet weak var makeUpsTableView: UITableView!
     
@@ -34,14 +34,14 @@ class DetailTableViewController: UIViewController, UITableViewDataSource, UITabl
 
     extension DetailTableViewController: UITableViewDataSource, UITableViewDelegate {
         
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return makeUp.count
     }
     
-    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell()
         var content = cell.defaultContentConfiguration()
-        content.text = makeUp[indexPath.row]
+         content.text = makeUp[indexPath.row].lippenstift
         cell.contentConfiguration = content
         return cell
     }
