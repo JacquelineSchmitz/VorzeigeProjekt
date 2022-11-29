@@ -22,7 +22,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eBu-XZ-0r0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-883" y="313"/>
+            <point key="canvasLocation" x="-1239" y="1011"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -114,9 +114,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-143" y="313"/>
+            <point key="canvasLocation" x="-495" y="1001"/>
         </scene>
-        <!--Item-->
+        <!--Kaldender-->
         <scene sceneID="nMM-U9-Ady">
             <objects>
                 <viewController id="uj8-0R-GIf" customClass="DataPickerViewController" customModule="VorzeigeProjekt" customModuleProvider="target" sceneMemberID="viewController">
@@ -152,7 +152,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bbr-IZ-7X0">
-                                <rect key="frame" x="58" y="740" width="277" height="35"/>
+                                <rect key="frame" x="58" y="691" width="277" height="35"/>
                                 <color key="backgroundColor" systemColor="systemGrayColor"/>
                                 <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
@@ -165,7 +165,7 @@
                                 </connections>
                             </button>
                             <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="PmK-yB-x86">
-                                <rect key="frame" x="2" y="523" width="393" height="0.0"/>
+                                <rect key="frame" x="0.0" y="523" width="395" height="0.0"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             </datePicker>
                         </subviews>
@@ -183,7 +183,7 @@
                             <constraint firstItem="3RL-h7-tia" firstAttribute="leading" secondItem="E5m-ik-FIU" secondAttribute="leading" constant="40" id="tiK-vd-XSi"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="ZdB-7e-7n8"/>
+                    <tabBarItem key="tabBarItem" title="Kaldender" image="calendar" catalog="system" id="ZdB-7e-7n8"/>
                     <connections>
                         <outlet property="datumTF" destination="3RL-h7-tia" id="3A8-EF-8zP"/>
                         <outlet property="uhrzeitTF" destination="e2d-od-n5C" id="S84-43-jAe"/>
@@ -192,7 +192,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="V4b-Q7-oXH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="R66-e7-2J3" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="2123" y="313"/>
+            <point key="canvasLocation" x="1195" y="-530"/>
         </scene>
         <!--Favorites-->
         <scene sceneID="YJl-Tm-z7B">
@@ -208,7 +208,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qlb-rl-Bke" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="244" y="-602"/>
+            <point key="canvasLocation" x="-271" y="-530"/>
         </scene>
         <!--Register-->
         <scene sceneID="i0Q-OH-ptx">
@@ -240,7 +240,7 @@
             </objects>
             <point key="canvasLocation" x="460" y="-1963"/>
         </scene>
-        <!--Search-->
+        <!--Home-->
         <scene sceneID="8f9-bL-rq5">
             <objects>
                 <viewController id="Mgr-rF-n0P" sceneMemberID="viewController">
@@ -250,11 +250,11 @@
                         <viewLayoutGuide key="safeArea" id="4LE-Bw-7Ol"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Search" image="magnifyingglass" catalog="system" id="uqD-hu-WL0"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="house.fill" catalog="system" id="uqD-hu-WL0"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LSn-Sz-dWN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-491" y="-602"/>
+            <point key="canvasLocation" x="-1008" y="-530"/>
         </scene>
         <!--Login-->
         <scene sceneID="yhO-bd-t6P">
@@ -332,7 +332,7 @@
                         <outlet property="passwordTF" destination="XH2-hL-dE9" id="6tf-hu-3Qq"/>
                         <outlet property="usernameTF" destination="34R-Jy-gd7" id="SHO-hm-v7j"/>
                         <segue destination="FTG-tC-p73" kind="show" identifier="startToRegisterSegue" id="R42-HV-nA0"/>
-                        <segue destination="5dO-Tf-r4k" kind="show" identifier="startToTabViewSegue" id="s3D-k1-1Yd"/>
+                        <segue destination="5dO-Tf-r4k" kind="presentation" identifier="startToTabViewSegue" modalPresentationStyle="fullScreen" id="s3D-k1-1Yd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KFD-fB-aXv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -352,9 +352,9 @@
                     <connections>
                         <segue destination="Mgr-rF-n0P" kind="relationship" relationship="viewControllers" id="S7l-OT-kir"/>
                         <segue destination="wWP-Q8-Qwg" kind="relationship" relationship="viewControllers" id="kZN-DU-UIo"/>
-                        <segue destination="1gm-5n-40K" kind="relationship" relationship="viewControllers" id="6S6-Id-AP9"/>
-                        <segue destination="sFF-Mt-3Za" kind="relationship" relationship="viewControllers" id="1bT-u8-miy"/>
                         <segue destination="bMu-Rx-7Xu" kind="relationship" relationship="viewControllers" id="dqI-Ty-mkj"/>
+                        <segue destination="T66-HK-pyM" kind="relationship" relationship="viewControllers" id="x2y-JT-5bh"/>
+                        <segue destination="uj8-0R-GIf" kind="relationship" relationship="viewControllers" id="fAm-Gi-dkc"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1eD-Ds-iIn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -378,9 +378,6 @@
                                 <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Button" cornerStyle="capsule"/>
-                                <connections>
-                                    <segue destination="T66-HK-pyM" kind="show" id="tUl-9q-BWS"/>
-                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="younique-moodstruck-opulence-lipstick-lippenstift" translatesAutoresizingMaskIntoConstraints="NO" id="32l-kp-Hn9">
                                 <rect key="frame" x="0.0" y="117" width="253" height="128"/>
@@ -408,9 +405,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Htd-3G-ZMi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="556" y="313"/>
+            <point key="canvasLocation" x="211" y="1001"/>
         </scene>
-        <!--Detail Table View Controller-->
+        <!--Kategorie-->
         <scene sceneID="qoL-52-1T9">
             <objects>
                 <tableViewController id="T66-HK-pyM" customClass="DetailTableViewController" customModule="VorzeigeProjekt" customModuleProvider="target" sceneMemberID="viewController">
@@ -420,14 +417,14 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="makeupCell" id="XS1-xq-fNX">
-                                <rect key="frame" x="0.0" y="50" width="393" height="42.666667938232422"/>
+                                <rect key="frame" x="0.0" y="50" width="393" height="43.333332061767578"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="XS1-xq-fNX" id="uC0-as-QE1">
-                                    <rect key="frame" x="0.0" y="0.0" width="393" height="42.666667938232422"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="43.333332061767578"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JPf-Ay-E0L">
-                                            <rect key="frame" x="151" y="11.000000000000002" width="42" height="20.666666666666671"/>
+                                            <rect key="frame" x="151" y="10.999999999999998" width="42" height="21.333333333333329"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -442,14 +439,15 @@
                             </tableViewCell>
                         </prototypes>
                     </tableView>
+                    <tabBarItem key="tabBarItem" title="Kategorie" image="rectangle.split.2x2.fill" catalog="system" id="cTG-in-FQd"/>
                     <navigationItem key="navigationItem" id="uhu-UG-htd"/>
                     <connections>
-                        <outlet property="makeUpsTableView" destination="g86-1u-bv2" id="VwA-FT-N3a"/>
+                        <outlet property="makeupsTableView" destination="g86-1u-bv2" id="osK-NG-EuD"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mi0-ds-H6L" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1308" y="313"/>
+            <point key="canvasLocation" x="459" y="-530"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="BvK-Sk-AB3">
@@ -475,7 +473,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Is-dk-q27" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="636" y="966"/>
+            <point key="canvasLocation" x="239" y="1697"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="HCt-NJ-9os">
@@ -494,38 +492,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="emx-zW-RDU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1037" y="-1962"/>
-        </scene>
-        <!--Item 3-->
-        <scene sceneID="Ks6-ec-JzG">
-            <objects>
-                <viewController id="1gm-5n-40K" userLabel="Item 3" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="6Fe-LL-btM">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="1Sf-QA-ci1"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Home" image="house.fill" catalog="system" id="jIR-7w-3sA"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="WfD-yH-alG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1004" y="-602"/>
-        </scene>
-        <!--Item 4-->
-        <scene sceneID="oBt-gF-Jqz">
-            <objects>
-                <viewController id="sFF-Mt-3Za" userLabel="Item 4" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="GwE-et-yY5">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="Cp7-cR-xUG"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Kalender" image="calendar" catalog="system" id="kvj-Rb-0Ie"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="toh-ss-nRL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1734" y="-595"/>
         </scene>
         <!--Item 5-->
         <scene sceneID="3dd-r7-ul0">
@@ -553,11 +519,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8MG-b0-Nys" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2491" y="-595"/>
+            <point key="canvasLocation" x="1926" y="-530"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="s3D-k1-1Yd"/>
+        <segue reference="3tg-lM-hGU"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="15078833_b8b3b83b8a" width="1200" height="752"/>
@@ -565,9 +531,9 @@
         <image name="calendar" catalog="system" width="128" height="107"/>
         <image name="heart.fill" catalog="system" width="128" height="107"/>
         <image name="house.fill" catalog="system" width="128" height="104"/>
-        <image name="magnifyingglass" catalog="system" width="128" height="117"/>
         <image name="person.fill" catalog="system" width="128" height="120"/>
         <image name="products_1639035743" width="1200" height="1200"/>
+        <image name="rectangle.split.2x2.fill" catalog="system" width="128" height="93"/>
         <image name="shiny-make-up-products-accessories-pink_695716-285" width="1500" height="2000"/>
         <image name="younique-moodstruck-opulence-lipstick-lippenstift" width="500" height="456"/>
         <systemColor name="systemBackgroundColor">

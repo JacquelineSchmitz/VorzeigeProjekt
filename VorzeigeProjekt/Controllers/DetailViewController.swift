@@ -9,11 +9,11 @@ import UIKit
 
 
     
-class DetailViewController: UIViewController {
+class DetailTableViewController: UITableViewController {
     
     
     
-    @IBOutlet weak var makeUpsTableView: UITableView!
+    @IBOutlet weak var makeupsTableView: UITableView!
     
     var makeup = [
         MakeUp(image: UIImage(named: "lippenstift")!, name: "Lippenstift", preis: 9.99),
@@ -25,20 +25,20 @@ class DetailViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        makeUpsTableView.dataSource = self
-        makeUpsTableView.delegate = self
+        makeupsTableView.dataSource = self
+        makeupsTableView.delegate = self
         
     }
 }
     
-    extension DetailViewController: UITableViewDataSource, UITableViewDelegate {
+    extension DetailTableViewController {
         
-        func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+       override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
             return makeup.count
         }
         
-        func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-           let cell = makeUpsTableView.dequeueReusableCell(withIdentifier: "makeupCell", for: indexPath)
+        override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+           let cell = makeupsTableView.dequeueReusableCell(withIdentifier: "makeupCell", for: indexPath)
             var content = cell.defaultContentConfiguration()
            content.text = makeup[indexPath.row].name
             cell.contentConfiguration = content

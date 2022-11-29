@@ -11,7 +11,6 @@
 		ED4CFD2C292FB11700DEBF96 /* DataPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4CFD2B292FB11700DEBF96 /* DataPickerViewController.swift */; };
 		ED6600E7292F7F68004C7F60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6600E6292F7F68004C7F60 /* AppDelegate.swift */; };
 		ED6600E9292F7F68004C7F60 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6600E8292F7F68004C7F60 /* SceneDelegate.swift */; };
-		ED6600EB292F7F68004C7F60 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6600EA292F7F68004C7F60 /* LoginViewController.swift */; };
 		ED6600EE292F7F68004C7F60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED6600EC292F7F68004C7F60 /* Main.storyboard */; };
 		ED6600F0292F7F69004C7F60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED6600EF292F7F69004C7F60 /* Assets.xcassets */; };
 		ED6600F3292F7F69004C7F60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED6600F1292F7F69004C7F60 /* LaunchScreen.storyboard */; };
@@ -26,7 +25,6 @@
 		ED6600E3292F7F68004C7F60 /* VorzeigeProjekt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VorzeigeProjekt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED6600E6292F7F68004C7F60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED6600E8292F7F68004C7F60 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ED6600EA292F7F68004C7F60 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		ED6600ED292F7F68004C7F60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED6600EF292F7F69004C7F60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED6600F2292F7F69004C7F60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -72,7 +70,6 @@
 				ED6600E6292F7F68004C7F60 /* AppDelegate.swift */,
 				ED6600E8292F7F68004C7F60 /* SceneDelegate.swift */,
 				ED6600EC292F7F68004C7F60 /* Main.storyboard */,
-				EDEAF56F2934E907009A7C5A /* MainViewController.swift */,
 				ED6600EF292F7F69004C7F60 /* Assets.xcassets */,
 				ED6600F1292F7F69004C7F60 /* LaunchScreen.storyboard */,
 				ED6600F4292F7F69004C7F60 /* Info.plist */,
@@ -91,9 +88,9 @@
 		EDEAF56C2934DF6B009A7C5A /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				ED6600EA292F7F68004C7F60 /* LoginViewController.swift */,
 				ED4CFD2B292FB11700DEBF96 /* DataPickerViewController.swift */,
 				ED4CFD29292F819200DEBF96 /* DetailViewController.swift */,
+				EDEAF56F2934E907009A7C5A /* MainViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -171,7 +168,6 @@
 			files = (
 				EDEAF5702934E907009A7C5A /* MainViewController.swift in Sources */,
 				ED4CFD2C292FB11700DEBF96 /* DataPickerViewController.swift in Sources */,
-				ED6600EB292F7F68004C7F60 /* LoginViewController.swift in Sources */,
 				EDEAF5722934FDB1009A7C5A /* RegisterViewController.swift in Sources */,
 				ED6600E7292F7F68004C7F60 /* AppDelegate.swift in Sources */,
 				ED6600E9292F7F68004C7F60 /* SceneDelegate.swift in Sources */,

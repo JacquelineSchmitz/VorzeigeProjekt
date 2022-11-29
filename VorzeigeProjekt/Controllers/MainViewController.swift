@@ -22,7 +22,7 @@ class MainViewController: UIViewController {
         usernameTF.delegate = self
         passwordTF.delegate = self
         
-
+//        NotificationCenter.default.addObserver(self, selector: #selector(login(_ :)), name: NSNotification.Name.init("de.ViewsWechseln.logIn"), object: nil)
     }
     
     @IBAction func loginPressed(){
